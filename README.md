@@ -34,3 +34,34 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+# My Notes
+
+$ npm run dev
+
+$ npm add -D tailwindcss postcss autoprefixer
+$ npx tailwindcss init
+
+https://jaketrent.github.io/react-social-icons/
+$ npm install react-social-icons
+<SocialIcon> url="https://www.twitter.com/mad_enrico" />
+
+Animations: Framer Motion (https://www.framer.com/)
+$ npm install framer
+<motion.div initial={{x: -500, opacity: 0, scale: 0.5}} animate={{x: 0, opacity: 1, scale: 1}}></motion.div>
+
+Type animation: react-simple-typewriter
+$ npm i react-simple-typewriter
+export default function Hero({}: Props) {
+  const [text, count] = useTypewriter({
+    words: [
+      "Hi, my name is Enric!!",
+      "Machine Learning and Software Engineer",
+      "data, data and more data...",
+      "🐍 Python 🐍",
+    ],
+    loop: true,
+    delaySpeed: 2000,
+  });
