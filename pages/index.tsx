@@ -1,14 +1,14 @@
-import Head from 'next/head';
-import type { NextPage } from "next";
-import Header from '../components/Header';
-import Hero from '../components/Hero';
+import Head from "next/head";
+
+import Header from "../components/Header";
+import Hero from "../components/Hero";
 
 
-const Home: NextPage = () => {
+export default function Home() {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen">
+    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
       <Head>
-        <title>Enric Domingo's Website</title>
+        <title>Enric Domingo&apos;s Website</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <Header />
 
       {/* Hero */}
-      <section id="hero">
+      <section id="hero" className="snap-center">
         <Hero />
       </section>
 
@@ -31,6 +31,6 @@ const Home: NextPage = () => {
       {/* Contact Me */}
     </div>
   );
-};
+}
 
-export default Home;
+
