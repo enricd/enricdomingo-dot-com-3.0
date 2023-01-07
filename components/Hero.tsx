@@ -9,10 +9,15 @@ export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Hi, my name is Enric!!",
-      "I'm a Machine Learning and Software Engineer",
+      "MLOps, Pytorch, Tensorflow, Sklearn",
       "data, data and more data...",
       "🐍 Python 🐍",
-      "Web, Frontend (React.js), Backend (FastAPI, Flask, Next.js), Databases",
+      "🧬 Learning Bioinformatics",
+      "Random Kaggler",
+      "Frontend (Javascript, React.js)", 
+      "Backend (FastAPI, Flask, Next.js)", 
+      "Databases (PostgreSQL, SQLite, ORMs)",
+      "Cloud (AWS, GCP, Azure)",
       "Drones 📡🛩️",
       "but also 🏂 🧗 🏄 🏔️ 🏃",
     ],
@@ -25,7 +30,7 @@ export default function Hero({}: Props) {
       <BackgroundCircles />
       <img 
         className="relative rounded-full h-48 w-48 mx-auto object-cover"
-        src="https://github.com/enricd/enricdomingo-dot-com-3.0/blob/main/public/profile1.png?raw=true" 
+        src="https://github.com/enricd/enricdomingo-dot-com-3.0/blob/main/public/profile0.png?raw=true" 
         alt="" 
       />
       <div className="z-20">
@@ -34,7 +39,7 @@ export default function Hero({}: Props) {
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
           <span>{text}</span>
-          <Cursor cursorColor="#F7AB0A" />
+          <Cursor cursorColor="#10a78d" />
         </h1>
 
         <div className="pt-5">
