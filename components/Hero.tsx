@@ -1,6 +1,6 @@
 import Link from "next/link";
-import React from "react"
-import { Cursor, useTypewriter } from "react-simple-typewriter"
+import React from "react";
+import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 
 type Props = {}
@@ -39,7 +39,7 @@ export default function Hero({}: Props) {
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
           <span>{text}</span>
-          <Cursor cursorColor="#10a78d" />
+          <Cursor cursorColor="#3c968b" />
         </h1>
 
         <div className="pt-5">

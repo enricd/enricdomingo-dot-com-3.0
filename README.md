@@ -1,3 +1,5 @@
+webpage inspired by Sonny Sangha
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -53,7 +55,7 @@ $ npm install framer-motion
 
 Type animation: react-simple-typewriter  
 $ npm i react-simple-typewriter  
-export default function Hero({}: Props) {  
+`export default function Hero({}: Props) {  
   const [text, count] = useTypewriter({  
     words: [  
       "Hi, my name is Enric!!",  
@@ -62,8 +64,23 @@ export default function Hero({}: Props) {
     ],  
     loop: true,   
     delaySpeed: 1500,  
-  });  
+  });`
 
 In nextjs images should be rendered as image components (TODO)
 
 we can create css classes as className and a tag and then define them uin the global.css file and assign their style
+
+Icons: Heroicons
+$ npm install @heroicons/react
+
+Forms:
+$ npm install react-hook-form
+
+Scrollbars:
+$ npm install --save-dev tailwind-scrollbar
+
+CMS: Sanity
+$ npm install -g @sanity/cli
+$ npm init --coupon sonny2022 
+[OR]
+$ npm create sanity@latest -- --coupon sonny2022

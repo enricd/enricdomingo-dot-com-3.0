@@ -21,23 +21,81 @@ function Skills({}: Props) {
       </h3>
 
       <div className="grid grid-cols-4 gap-5">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+          directionLeft={true}
+        />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+          directionLeft={true}
+        />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+          directionLeft={true}
+        />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+          directionLeft={true}
+        />
 
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+        />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+        />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+        />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+        />
+
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+          directionLeft={true}
+        />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+          directionLeft={true}
+        />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+          directionLeft={true}
+        />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+          directionLeft={true}
+        />
+
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+        />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+        />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+        />
+        <Skill 
+          img_src={"https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg"}
+          level={100}
+        />
       </div>
     </motion.div>
   );
