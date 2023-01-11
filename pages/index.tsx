@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import Header from "../components/Header";
-import Hero from "../components/Hero";
+import Start from "../components/Start";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import WorkExperience from "../components/WorkExperience";
@@ -20,8 +20,8 @@ export default function Home() {
 
       <Header />
 
-      <section id="hero" className="snap-start">
-        <Hero />
+      <section id="start" className="snap-start">
+        <Start />
       </section>
 
       <section id="about" className="snap-center">
@@ -45,11 +45,11 @@ export default function Home() {
       </section>
 
       <footer className="sticky bottom-5 w-full">
-        <div className="flex items-center justify-center">
-          <Link href="#hero">
+        <div className="flex items-start justify-end px-8 2xl:px-20">
+          <Link href="#start">
             <img 
-              className="h-10 w-10 rounded-full grayscale hover:grayscale-0 cursor-pointer"
-              src="https://statewideguttercompany.com/wp-content/uploads/2012/07/logo-placeholder.jpg" 
+              className="h-12 w-12 lg:h-16 lg:w-16 rounded-full grayscale hover:grayscale-0 cursor-pointer"
+              src="favicon.ico" 
               alt="" 
             />
           </Link>

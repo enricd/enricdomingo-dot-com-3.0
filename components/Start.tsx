@@ -5,7 +5,7 @@ import BackgroundCircles from "./BackgroundCircles";
 
 type Props = {}
 
-export default function Hero({}: Props) {
+export default function Start({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Hi, my name is Enric!!",
@@ -26,23 +26,23 @@ export default function Hero({}: Props) {
   });
 
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className="h-screen flex flex-col space-y-20 sm:space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <img 
-        className="relative rounded-full h-48 w-48 mx-auto object-cover bg-[#3c968b]/80"
+        className="relative rounded-full bottom-4 sm:bottom-0 h-32 w-32 sm:h-48 sm:w-48 mx-auto object-cover bg-[#3c968b]/80"
         src="https://github.com/enricd/enricdomingo-dot-com-3.0/blob/main/public/profile0.png?raw=true" 
         alt="" 
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-400 pb-5 tracking-[6px]">
+        <h2 className="text-xs sm:text-sm uppercase text-gray-400 pb-5 tracking-[5px]">
           Machine Learning and Software Engineer
         </h2>
-        <h1 className="text-4xl lg:text-5xl font-semibold px-10">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold px-6">
           <span>{text}</span>
           <Cursor cursorColor="#3c968b" />
         </h1>
 
-        <div className="pt-5">
+        <div className="pt-10">
           <Link href="#about">    {/* the href will point to the section id that has been assigned in the index.tsx */}
             <button className="heroButton">About</button>
           </Link>
