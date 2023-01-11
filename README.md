@@ -79,8 +79,16 @@ $ npm install react-hook-form
 Scrollbars:
 $ npm install --save-dev tailwind-scrollbar
 
+(optional, not used by now)
 CMS: Sanity
 $ npm install -g @sanity/cli
 $ npm init --coupon sonny2022 
 [OR]
 $ npm create sanity@latest -- --coupon sonny2022
+
+Pushing and hosting on Vercel
+$ npm i -g vercel
+$ vercel login
+$ vercel build
+(default settings)
+$ vercel deploy --prebuilt

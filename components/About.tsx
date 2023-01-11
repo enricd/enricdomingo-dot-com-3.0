@@ -36,15 +36,15 @@ export default function About({}: Props) {
                 Some of my{" "}<span className="underline decoration-[#3c968b]">background</span>
             </h4>
             <p className="text-base">
-                👋 I&apos;m Enric and I&apos;m from Barcelona. I&apos;m currently working at ERNI in a Boehringer Ingelheim&apos;s pharma 
-                project as a Senior ML and Software Engineer. I&apos;m also a Technical Coach and the Lead of the Data and AI Community at ERNI.
+                👋 I&apos;m Enric and I&apos;m from Barcelona. I&apos;m currently working as a Senior ML and Software Engineer at ERNI 
+                in a Boehringer Ingelheim&apos;s pharma project. I&apos;m also a Technical Coach and the Lead of the Data and AI Community at ERNI.
             </p>
             <p className="text-base">
                 I studied 60% of the Aerospace Engineering degree and co-founded Venturi Unmanned 
                 Technologies during that time, a startup designing, building and operating VTOL drones for 
                 long range industrial inspections. During those years, I started learning more about software   
-                and AI, and later I switched my studies to the Computer Engineering degree while learning more 
-                about Machine Learning and MLOps by my own.
+                and AI, and later I switched my studies to the online Computer Engineering degree (currently part time finishing 
+                the 3rd year) while learning more about Machine Learning, MLOps and Bioinformatics by my own.
             </p>
             
         </div>

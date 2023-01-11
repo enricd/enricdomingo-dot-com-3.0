@@ -34,10 +34,10 @@ export default function Hero({}: Props) {
         alt="" 
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[7px]">
+        <h2 className="text-sm uppercase text-gray-400 pb-5 tracking-[6px]">
           Machine Learning and Software Engineer
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-4xl lg:text-5xl font-semibold px-10">
           <span>{text}</span>
           <Cursor cursorColor="#3c968b" />
         </h1>
