@@ -36,8 +36,8 @@ export default function About({}: Props) {
                 Some of my{" "}<span className="underline decoration-[#3c968b]">background</span>
             </h4>
             <p className="text-base">
-                👋 I'm Enric and I'm from Barcelona. I'm currently working at ERNI in a Boehringer Ingelheim's pharma 
-                project as a Senior ML and Software Engineer. I'm also a Technical Coach and the Lead of the Data and AI Community at ERNI.
+                👋 I&apos;m Enric and I&apos;m from Barcelona. I&apos;m currently working at ERNI in a Boehringer Ingelheim&apos;s pharma 
+                project as a Senior ML and Software Engineer. I&apos;m also a Technical Coach and the Lead of the Data and AI Community at ERNI.
             </p>
             <p className="text-base">
                 I studied 60% of the Aerospace Engineering degree and co-founded Venturi Unmanned 

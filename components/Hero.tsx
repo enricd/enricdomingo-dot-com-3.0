@@ -29,7 +29,7 @@ export default function Hero({}: Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <img 
-        className="relative rounded-full h-48 w-48 mx-auto object-cover"
+        className="relative rounded-full h-48 w-48 mx-auto object-cover bg-[#3c968b]/80"
         src="https://github.com/enricd/enricdomingo-dot-com-3.0/blob/main/public/profile0.png?raw=true" 
         alt="" 
       />

@@ -5,7 +5,11 @@ module.exports = {
 		"./components/**/*.{js,ts,jsx,tsx}",
 	],
 	theme: {
-		extend: {},
+		extend: {
+			animation: {
+				'ping-slow': 'ping 2s cubic-bezier(0, 0, 0.8, 1) infinite',
+			}
+		},
 	},
 	plugins: [require("tailwind-scrollbar")],
 };
