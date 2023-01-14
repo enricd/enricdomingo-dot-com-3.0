@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 import Header from "../components/Header";
 import Start from "../components/Start";
@@ -8,6 +9,8 @@ import WorkExperience from "../components/WorkExperience";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import Link from "next/link";
+
+import favicon from "../public/favicon.ico"
 
 
 export default function Home() {
@@ -44,13 +47,13 @@ export default function Home() {
         <ContactMe />
       </section>
 
-      <footer className="sticky bottom-5 w-full">
+      <footer className="sticky bottom-10 sm:bottom-5 w-full">
         <div className="flex items-start justify-end px-8 2xl:px-20">
           <Link href="#start">
-            <img 
+            <Image 
               className="h-12 w-12 lg:h-16 lg:w-16 rounded-full grayscale hover:grayscale-0 cursor-pointer"
-              src="favicon.ico" 
-              alt="" 
+              src={favicon} 
+              alt="footer Enric" 
             />
           </Link>
         </div>
