@@ -1,7 +1,10 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+
 import BackgroundCircles from "./BackgroundCircles";
+import profile0 from "../public/profile0.png";
 
 type Props = {}
 
@@ -28,10 +31,11 @@ export default function Start({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-20 sm:space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
-      <img 
+      <Image 
+        priority
         className="relative rounded-full bottom-4 sm:bottom-0 h-32 w-32 sm:h-48 sm:w-48 mx-auto object-cover bg-[#3c968b]/80"
-        src="https://github.com/enricd/enricdomingo-dot-com-3.0/blob/main/public/profile0.png?raw=true" 
-        alt="" 
+        src={profile0} 
+        alt="Enric Domingo profile" 
       />
       <div className="z-20">
         <h2 className="text-xs sm:text-sm uppercase text-gray-400 pb-5 tracking-[5px]">

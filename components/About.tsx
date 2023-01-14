@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import React from "react";
+import Image from "next/image";
+
+import profile1 from "../public/profile1.png"
 
 type Props = {}
 
@@ -15,7 +18,7 @@ export default function About({}: Props) {
             About
         </h3>
 
-        <motion.img 
+        <motion.div 
             initial={{
                 x: -200,
                 opacity: 0
@@ -27,9 +30,15 @@ export default function About({}: Props) {
                 x: 0,
                 opacity: 1
             }}
-            src="https://github.com/enricd/enricdomingo-dot-com-3.0/blob/main/public/profile1.png?raw=true" 
-            className="mt-14 -mb-16 md:mb-0 flex-shrink-0 w-44 h-44 rounded-full object-cover md:rounded-lg md:w-72 md:h-96 xl:w-[400px] xl:h-[500px]"
-        />
+            className="mt-14 -mb-16 md:mb-0 flex-shrink-0"
+        >
+            <Image 
+                src={profile1}
+                className="w-44 h-44 rounded-full object-cover md:rounded-lg md:w-72 md:h-96 xl:w-[400px] xl:h-[500px]"
+                alt="Enric Domingo about profile"
+            />
+
+        </motion.div>
 
         <div className="space-y-6 sm:space-y-10 px-0 md:px-10">
             <h4 className="text-xl md:text-4xl font-semibold">
